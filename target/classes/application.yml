@@ -1,0 +1,17 @@
+fatsecret:
+  client-id: a00ddf601f104177b561b851e1224e7e
+  client-secret: f199b3c1303f40a69c49ac9e008a6c89
+
+server:
+  address: 0.0.0.0
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 11MB
+      max-request-size: 12MB
+
+app:
+  upload-directory: /home/ady/Spring/uploads
